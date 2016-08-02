@@ -1,7 +1,0 @@
-#!/bin/bash
-
-source ./.gitpromptrc
-source ./.aliasesrc
-source ./.rbenvrc
-source ./.fasdrc
-source ./.bundlerrc
