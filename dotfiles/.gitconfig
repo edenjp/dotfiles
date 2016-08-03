@@ -8,10 +8,12 @@
 	lg = log --graph --pretty=format:'[%cn]%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	rc = rebase --continue
 	cm = checkout master
-	mm = merge master
 	c- = checkout -
+	mm = merge master
 	c = checkout
-	f = fetch
+	r = reset --hard HEAD
+	cl = clean -f
+	p = pull
 [user]
 	name = Fabio Perrella
 	email = fabio.perrella@locaweb.com.br
