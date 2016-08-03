@@ -4,7 +4,11 @@
 alias flp='git config --global user.name "Fabio Perrella" ; git config user.name'
 alias pec='git config --global user.name "Fabio Perrella e Celso Crivelaro" ; git config user.name'
 alias fel='git config --global user.name "Fabio Perrella e Leandro Gomes" ; git config user.name'
-alias fer='git config --global user.name "Fabio Perrella e Rodrigo Coutinho" ; git config user.name'
+alias fee='git config --global user.name "Fabio Perrella e Eden Pereira" ; git config user.name'
+alias feg='git config --global user.name "Fabio Perrella e Guilherme Cruz" ; git config user.name'
+alias fea='git config --global user.name "Fabio Perrella e Allan Klaus" ; git config user.name'
+alias fef='git config --global user.name "Fabio Perrella e Franklin" ; git config user.name'
+alias few='git config --global user.name "Fabio Perrella e Wellington" ; git config user.name'
 
 #lw
 alias sshprod='ssh -i .ssh/id_rsa_gateway _perrella@nibbler0001.linux.locaweb.com.br'
