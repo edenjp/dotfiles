@@ -5,7 +5,7 @@ export bashrc_file=~/.bashrc
 dotfiles=$(ls -A dotfiles| egrep '^\.')
 for i in $dotfiles
 do
-  ln -sf $PWD/dotfiles/$i ~/$i || echo "did not create symlink for $i because file ~/$i already exists"
+  ln -s $PWD/dotfiles/$i ~/$i || echo "did not create symlink for $i because file ~/$i already exists"
 done
 
 grep bashrc_includes $bashrc_file || echo "source ~/.bashrc_includes" >> $bashrc_file
